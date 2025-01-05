@@ -1,0 +1,40 @@
+#clock {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 30px auto 0 auto;
+    background: url(assets/clock4.png);
+    background-repeat: no-repeat;
+    list-style: none;
+}
+#min {
+    position: absolute;
+    width: 30px;
+    height: 600px;
+    top: 0px;
+    left: 285px;
+    background: url(assets/minhand.png);
+    z-index: 2;
+}
+#sec, #min, #hour {
+    position: absolute;
+    width: 30px;
+    height: 600px;
+    top: 0px;
+    left: 285px;
+}
+
+#sec {
+    background: url(assets/secondshand.png);
+    z-index: 3;
+}
+
+#min {
+    background: url(assets/minhand.png);
+    z-index: 2;
+}
+
+#hour {
+    background: url(assets/hourhand.png);
+    z-index: 1;
+}
